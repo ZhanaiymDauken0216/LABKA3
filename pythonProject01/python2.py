@@ -1,8 +1,11 @@
+#Zhanaiym
+# А және В екі бүтін сандар берілген. А<B болса, өсу ретімен немесе басқаша жағдайда кему ретімен А-дан В-ға дейінгі барлық сандарды басып шығарыңыз.
 a = int(input())
 b = int(input())
-if a < b:
-    for i in range(a, b + 1):
+if a < b: #A кіші B дан болса орындалсын
+    for i in range(a, b + 1,1):
         print(i)
-else:
+
+else:  
     for i in range(a, b - 1, -1):
         print(i)
